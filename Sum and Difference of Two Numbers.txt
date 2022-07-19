@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a;
+    int b;
+    float c;
+    float d;
+    int ans1;
+    int ans2;
+    float ans3;
+    float ans4;
+	scanf( "%d", &a);
+    scanf( "%d", &b);
+    scanf( "%f", &c);
+    scanf( "%f", &d);
+    ans1= a+b;
+    ans2= a-b;
+    ans3= c+d;
+    ans4= c-d;
+    printf("%d %d\n",ans1,ans2);
+    printf("%.1f %.1f",ans3,ans4);
+    
+    
+    return 0;
+}
